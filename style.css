@@ -1,0 +1,92 @@
+/* CSS files add styling rules to your content */
+
+@charset "UTF-8";
+/* CSS Document */
+
+.UserBar {
+  height: 230px;
+  background: #C2C2C2;
+  width: 100%;
+  padding: 10px;
+  border-top: 1px #ABABAB solid;
+  border-bottom: 2px #ABABAB solid;
+}
+
+.spacer {
+  height: 20px;
+  width: 100%;
+}
+
+.container {
+  margin: 10px 40px 30px 90px;
+  max-width: 740px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.userImage {
+  height: 160px;
+  width: 160px;
+  background: #000000;
+  border-radius: 50%;
+  border-color: white;
+  border-width: 2px;
+  margin: 10px 0 0 0;
+}
+
+#button {
+  background-color: #B48182;
+  border: 2px solid white;
+  color: black;
+  margin-left: 1230px;
+  border-radius: 20%;
+}
+
+h1 {
+  font-style: italic;
+  color: #ffffff;
+}
+
+h2 {
+  width: 230px;
+}
+
+h5 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.leftBox {
+  width: 300px;
+  height: 100%;
+  border-right: 2px solid black;
+}
+
+.rightBox {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 1px;
+  left: 330px;
+}
+.rightrightBox{
+ 
+  right: 150px;
+  width: 100%;
+  height: 120px;
+}
+
+.col-3 {
+  display: inline-block;
+  margin-right: 5px;
+  text-align: center;
+}
+table,tr,td,th{
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 15px;
+  text-align: left;  
+}
+th, td{
+  padding: 15px;
+}
